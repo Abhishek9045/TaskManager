@@ -15,7 +15,7 @@ app.use('/notes',noteRoute)
 
 db.sync()
   .then(() => {
-    app.listen(process.env.PORT || 6543)
+    app.listen(process.env.PORT || 3333)
   })
   .catch((err) => {
     console.error(err)
